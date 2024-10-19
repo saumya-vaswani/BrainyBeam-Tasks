@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:gainsboro;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+.password-validator {
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color:darkcyan;
+    padding: 3rem;
+    box-shadow: 6px 6px 6px 6px black;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
