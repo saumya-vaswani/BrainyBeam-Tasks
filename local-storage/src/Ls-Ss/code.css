@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.wrapper {
+    text-align: 'center';
+    margin-top: '50px';
+    background-color: aquamarine;
+    padding: 2rem;
+}
+
+div h2 {
+    font-size: 2rem;
+}
+
+.localStorage,
+.sessionStorage {
+    text-align: center;
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.counter-btn {
+    text-align: center;
+    margin-block: 1rem;
+}
+
+.counter-btn button {
+    padding:0.2rem 2rem;
+    margin-inline: 20px;
+}
+
+.sessionStorage {
+    input {
+        width: 100%;
+        margin-block: 0.35rem;
+        padding: 0.5rem 3rem;
+        -o-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    button {
+        margin: 1rem;
+        padding: 0.5rem 3rem;
+        border: none;
+    }
+    button:hover{
+        background-color: chartreuse;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
