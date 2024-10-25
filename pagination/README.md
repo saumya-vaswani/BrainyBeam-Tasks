@@ -1,8 +1,13 @@
-# React + Vite
+# Pagination in React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pagination divides content into multiple pages (like lists, tables, or search results). It helps manage large datasets by displaying only a subset of data per page, improving UI and performance.
 
-Currently, two official plugins are available:
+In React, pagination is often paired with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+State hooks (useState) to manage the current page.
+Effect hooks (useEffect) are used to fetch paginated data from APIs.
+Global state (if pagination state needs to be accessed across components).
+
+
+![image](https://github.com/user-attachments/assets/4b36c136-05ac-4a35-a85c-1b7e8ba0e105)
+
